@@ -1,0 +1,22 @@
+{
+  "TEC-MLE":   ["machine learning", "ml engineer", "ml engineering", "pytorch", "tensorflow", "scikit-learn", "sklearn", "mlops", "deep learning", "model training", "computer vision", "xgboost"],
+  "TEC-GENAI": ["generative ai", "genai", "llm", "llms", "large language model", "prompt engineering", "rag", "retrieval augmented", "langchain", "fine-tuning", "llm ops", "llmops", "openai", "vector database"],
+  "TEC-DENG":  ["data engineering", "data engineer", "etl", "elt", "spark", "pyspark", "airflow", "data pipeline", "data pipelines", "kafka", "databricks", "snowflake", "dbt"],
+  "TEC-CLOUD": ["cloud architecture", "aws", "azure", "gcp", "google cloud", "kubernetes", "terraform", "cloud infrastructure", "devops", "docker"],
+  "TEC-CYBER": ["cybersecurity", "cyber security", "information security", "infosec", "penetration testing", "soc analyst", "siem", "iso 27001", "threat intelligence", "nesa"],
+  "TEC-BI":    ["power bi", "tableau", "data visualization", "data visualisation", "dashboards", "dashboard", "business intelligence", "looker", "qlik"],
+  "FIN-FMOD":  ["financial modeling", "financial modelling", "dcf", "discounted cash flow", "valuation", "lbo", "three-statement", "3-statement", "comparable companies", "comps analysis", "excel modeling", "excel modelling"],
+  "FIN-ISLM":  ["islamic finance", "sukuk", "shariah", "sharia", "murabaha", "ijara", "takaful", "islamic banking", "aaoifi"],
+  "FIN-RISK":  ["risk management", "credit risk", "market risk", "basel", "ifrs 9", "ifrs9", "var", "value at risk", "stress testing", "ecl", "expected credit loss"],
+  "FIN-FPA":   ["fp&a", "financial planning", "budgeting", "forecasting", "variance analysis", "management accounts", "rolling forecast"],
+  "FIN-AML":   ["aml", "kyc", "anti-money laundering", "anti money laundering", "cdd", "edd", "sanctions screening", "transaction monitoring", "compliance"],
+  "OPS-SCM":   ["supply chain", "logistics", "inventory management", "warehousing", "sap mm", "distribution planning", "replenishment"],
+  "OPS-PROC":  ["procurement", "sourcing", "vendor management", "supplier management", "purchasing", "tendering", "contract negotiation", "rfq", "rfp"],
+  "OPS-RPT":   ["manual reporting", "report preparation", "weekly reports", "monthly reports", "mis reports", "mis reporting", "excel reports", "data compilation"],
+  "OPS-ADMIN": ["data entry", "back office", "back-office", "administrative support", "filing", "document control", "office administration", "clerical"],
+  "FMCG-FSQA": ["food safety", "haccp", "iso 22000", "quality assurance", "qa/qc", "gmp", "fssc 22000", "brc", "dubai municipality", "food hygiene", "sanitation", "pest control audit"],
+  "FMCG-CAT":  ["category management", "trade marketing", "shopper marketing", "planogram", "retail execution", "key account", "key accounts", "nielsen"],
+  "FMCG-DMDP": ["demand planning", "s&op", "sales and operations planning", "demand forecasting", "forecast accuracy", "ibp"],
+  "STR-CORP":  ["corporate strategy", "strategy", "m&a", "mergers and acquisitions", "due diligence", "corporate development", "business case", "market entry", "strategic planning"],
+  "STR-ESG":   ["esg", "sustainability", "net zero", "carbon accounting", "ghg", "gri", "tcfd", "issb", "climate risk", "sustainable finance", "green bonds"]
+}

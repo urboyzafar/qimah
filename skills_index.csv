@@ -1,0 +1,21 @@
+skill_id,skill_name,category,base_monthly_aed,pct_change_30d,ai_replaceability_score,demand_velocity,sample_size
+TEC-MLE,ML Engineering,Tech/AI,17500,3.4,22,1.24,412
+TEC-GENAI,Generative AI & LLM Ops,Tech/AI,19000,5.8,18,1.29,186
+TEC-DENG,Data Engineering,Tech/AI,15000,2.1,34,1.15,358
+TEC-CLOUD,Cloud Architecture,Tech/AI,16500,1.6,28,1.12,401
+TEC-CYBER,Cybersecurity,Tech/AI,16000,2.7,24,1.18,337
+TEC-BI,BI & Data Visualization,Tech/AI,11000,-0.8,58,0.98,512
+FIN-FMOD,Financial Modeling,Finance,13500,0.9,44,1.04,466
+FIN-ISLM,Islamic Finance & Sukuk Structuring,Finance,15500,1.8,30,1.10,142
+FIN-RISK,Risk Management (Basel / IFRS 9),Finance,14500,0.6,38,1.03,289
+FIN-FPA,FP&A,Finance,12500,-0.4,52,0.99,538
+FIN-AML,AML / KYC Compliance,Finance,12000,-1.1,61,0.97,604
+OPS-SCM,Supply Chain Planning,Operations,12000,0.7,46,1.02,377
+OPS-PROC,Procurement & Vendor Management,Operations,11500,-0.3,50,0.98,421
+OPS-RPT,Manual Reporting,Operations,7500,-4.2,88,0.84,693
+OPS-ADMIN,Data Entry & Back-Office Admin,Operations,5500,-5.1,92,0.81,812
+FMCG-FSQA,Food Safety & QA,FMCG/Food Safety,11500,1.9,26,1.09,248
+FMCG-CAT,Category Management & Trade Marketing,FMCG/Food Safety,13000,0.5,42,1.01,219
+FMCG-DMDP,Demand Planning (S&OP),FMCG/Food Safety,12500,1.1,40,1.05,233
+STR-CORP,Corporate Strategy & M&A,Corporate Strategy,18000,1.3,32,1.08,167
+STR-ESG,ESG & Sustainability Strategy,Corporate Strategy,15000,2.4,29,1.11,154

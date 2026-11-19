@@ -1,0 +1,84 @@
+{
+  "model_version": "qimah-v1.0",
+  "currency": "AED",
+  "period": "month",
+  "rounding_aed": 100,
+
+  "bundle": {
+    "max_skills": 5,
+    "weights": [0.45, 0.25, 0.15, 0.10, 0.05]
+  },
+
+  "synergy": {
+    "bonus_per_complementary_skill": 0.04,
+    "cap": 0.12,
+    "rule": "A skill is complementary when its category differs from the primary skill's category and its ai_replaceability_score is below max_ai_score.",
+    "max_ai_score": 60
+  },
+
+  "experience_tiers": [
+    {"key": "entry",    "label": "0–1 yrs (Fresh Grad / Entry)", "min_years": 0,  "max_years": 1,    "rep_years": 1,  "multiplier": 0.75},
+    {"key": "junior",   "label": "2–3 yrs (Junior / Associate)", "min_years": 2,  "max_years": 3,    "rep_years": 3,  "multiplier": 1.00},
+    {"key": "mid",      "label": "4–6 yrs (Mid-Senior)",         "min_years": 4,  "max_years": 6,    "rep_years": 5,  "multiplier": 1.32},
+    {"key": "senior",   "label": "7–10 yrs (Senior / Lead)",     "min_years": 7,  "max_years": 10,   "rep_years": 8,  "multiplier": 1.68},
+    {"key": "director", "label": "10+ yrs (Director / VP)",      "min_years": 11, "max_years": null, "rep_years": 12, "multiplier": 2.10}
+  ],
+
+  "location": {
+    "factors": {
+      "Dubai": 1.08,
+      "Abu Dhabi": 1.10,
+      "Sharjah": 0.92,
+      "Ajman": 0.85,
+      "Ras Al Khaimah": 0.85,
+      "Umm Al Quwain": 0.85,
+      "Fujairah": 0.85
+    },
+    "groups": {
+      "Northern Emirates": ["Ajman", "Ras Al Khaimah", "Umm Al Quwain", "Fujairah"]
+    }
+  },
+
+  "education": {
+    "levels": {
+      "Bachelor's": 1.00,
+      "Master's / MBA": 1.10
+    },
+    "tier1_cert_premium": 0.12,
+    "max_multiplier": 1.22,
+    "tier1_certs": ["CFA", "CPA", "ACCA", "AWS Certified (Professional / Specialty)", "ML Specialization (AWS / Google / Azure)"]
+  },
+
+  "ai_adjustment": {
+    "pivot_score": 45,
+    "sensitivity": 0.18,
+    "floor": 0.82,
+    "ceiling": 1.18,
+    "premium_above": 1.03,
+    "discount_below": 0.97
+  },
+
+  "comps": {
+    "index_weight": 0.75,
+    "offers_weight": 0.25,
+    "match_emirate": true,
+    "min_skill_overlap": 1,
+    "max_years_gap": 3,
+    "note": "max_years_gap keeps comps at a similar seniority. Set to null to match on emirate + skill overlap only."
+  },
+
+  "bands": {
+    "p25": 0.88,
+    "p75": 1.16
+  },
+
+  "salary_position": {
+    "at_market_tolerance": 0.03
+  },
+
+  "negotiation": {
+    "anchor_band": "p75",
+    "target_mix_p50_to_p75": 0.5,
+    "floor_band": "p50"
+  }
+}
